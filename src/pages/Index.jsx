@@ -11,7 +11,7 @@ const Index = () => {
   return (
     <>
       <Navbar />
-      <main className="bg-gradient-to-b from-white to-orange-100/50 pt-16">
+      <main className="bg-gradient-to-b from-white to-accent-soft/50 pt-16">
         <HeroSection />
         <ExperienceSection />
         <ProjectsSection />

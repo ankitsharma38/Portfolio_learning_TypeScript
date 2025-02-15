@@ -46,7 +46,7 @@ const ProjectsSection = () => {
     <section id="projects" className="py-20 px-4">
       <div className="max-w-7xl mx-auto space-y-8">
         <div className="text-center space-y-4">
-          <h2 className="inline-flex items-center gap-2 px-3 py-1 text-sm bg-orange-100 text-orange-500 rounded-full">
+          <h2 className="inline-flex items-center gap-2 px-3 py-1 text-sm bg-accent-soft text-accent rounded-full">
             <Code className="w-4 h-4" /> Projects
           </h2>
           <h3 className="text-3xl font-bold">Featured Projects</h3>
@@ -55,7 +55,7 @@ const ProjectsSection = () => {
           {projects.map((project, index) => (
             <Card key={index} className="p-6 hover:shadow-lg transition-all duration-300 animate-fade-in">
               <div className="space-y-4">
-                <div className="h-48 bg-orange-50 rounded-lg overflow-hidden">
+                <div className="h-48 bg-accent-soft rounded-lg overflow-hidden">
                   <img
                     src={project.image}
                     alt={project.title}
@@ -68,7 +68,7 @@ const ProjectsSection = () => {
                   {project.tech.map((tech, i) => (
                     <span
                       key={i}
-                      className="px-2 py-1 bg-orange-50 text-orange-500 text-sm rounded-full"
+                      className="px-2 py-1 bg-accent-soft text-accent text-sm rounded-full"
                     >
                       {tech}
                     </span>
